@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <!--/*/ <th:block th:include="fragments/head :: head"/> /*/-->
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row justify-content-md-center">
+                <div class="w-75">
+                    <p/>
+                    <div th:if="${user.claims.containsKey('appName')}"
+                        class="alert alert-success text-center" role="alert"
+                    >
+                        <h2 th:text="${user.claims.appName}"></h2>
+                    </div>
+                    <p/>
+                    <div th:if="${user.claims.containsKey('name')}"
+                        class="alert alert-primary text-center" role="alert"
+                    >
+                        <h3 th:inline="text">Welcome [[${user.claims.name}]]!</h3>
+                    </div>
+                    <div class="alert alert-secondary text-center">
+                        <p th:inline="text" class="text-break" style="overflow-wrap: anywhere">
+                            [[${idToken}]]
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
