@@ -33,3 +33,7 @@ mvn spring-boot:run \
     -Dokta.oauth2.clientSecret=<client secret for oidc app> \
     -Dokta.oauth2.issuer=<issuer for oidc app>
 ```
+
+You can also deploy directly to Heroku and provision an Okta org at the same time!
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
