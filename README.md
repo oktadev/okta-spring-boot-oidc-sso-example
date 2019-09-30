@@ -25,6 +25,10 @@ ____________________
 ![heroku env settings](img/heroku_app_env_vars.png)
 
 
+![deploy](img/deploy_heroku_app.png)
+
+You can also SSO to your Okta Admin Console from the Heroku Dashboard.
+
 ## Single Sign-On with Spring Boot, OpenID Connect and Okta
 
 This application also demonstrates Single Sign-On across multiple OpenID Connect applications
