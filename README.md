@@ -6,10 +6,9 @@ You can deploy directly to Heroku and provision an Okta org at the same time!
 
 The app is already configured to integrate with your new Okta org.
 
-When you click the purple button above, you'll give the app a unique name to run in Heroku.
-
-After the Okta org is provisioned and this app is deployed to Heroku, you can SSO to your
-Okta Admin Console from Heroku, create a user and then log in to this app.
+When you click the purple button above, you'll give the app a unique name to run in Heroku. 
+You'll also set a name, email and password for a user that is created in your new Okta org.
+You can log into the app with this user.
 
 ## Single Sign-On with Spring Boot, OpenID Connect and Okta
 

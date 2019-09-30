@@ -1,8 +1,26 @@
 {
   "name": "SSO with Spring Boot, OIDC & Okta",
-  "description": "This app demonstrates integrating a simple Spring Boot / Spring Security app with Okta using OIDC. After deploying to Heroku, use the link to your Okta dashboard to create a user and log into the app.",
+  "description": "This app demonstrates integrating a simple Spring Boot / Spring Security app with Okta using OIDC. A User ",
   "repository": "https://github.com/oktadeveloper/okta-spring-boot-oidc-sso-example/tree/master",
   "keywords": ["oidc", "identity", "security", "authentication"],
   "success_url": "/",
+  "env": {
+    "OKTA_ADMIN_NAME_FIRST": {
+      "description": "First name Okta Admin user created by app.",
+      "value": "changeme"
+    },
+    "OKTA_ADMIN_NAME_LAST": {
+      "description": "Last name for Okta Admin user created by app.",
+      "value": "changeme"
+    },
+    "OKTA_ADMIN_EMAIL": {
+      "description": "Valid Email Address for Okta Admin user created by app.",
+      "value": "changeme"
+    },
+    "OKTA_ADMIN_PASSWORD": {
+      "description": "Password for Okta Admin user created by app. (Should be 8 chars min, with 1 each of cap letter, number and symbol.",
+      "value": "changeme"
+    }
+  },
   "addons": [ "okta" ]
 }
