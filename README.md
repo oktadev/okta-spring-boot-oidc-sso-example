@@ -10,6 +10,10 @@ When you click the purple button above, you'll give the app a unique name to run
 You'll also set a name, email and password for a user that is created in your new Okta org.
 You can log into the app with this user.
 
+You can also SSO to your Okta Admin Console from the Heroku Dashboard.
+
+![deploy](img/deploy_heroku_app.png)
+
 ## Single Sign-On with Spring Boot, OpenID Connect and Okta
 
 This application also demonstrates Single Sign-On across multiple OpenID Connect applications
