@@ -1,5 +1,7 @@
 ## Spring Boot + Okta
 
+This app demonstrates integrating an Okta OpenID Connect application with Spring Boot.
+
 You can deploy directly to Heroku and provision an Okta org at the same time!
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
