@@ -20,7 +20,7 @@ public class SpringBootOidcSsoApplication {
     @Value("#{ @environment['okta.admin.name.first'] }")
     private String firstName;
 
-    @Value("#{ @environment['okta.admin.name.first'] }")
+    @Value("#{ @environment['okta.admin.name.last'] }")
     private String lastName;
 
     @Value("#{ @environment['okta.admin.email'] }")
