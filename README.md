@@ -18,7 +18,8 @@ ________________
 ____________________
 ![heroku dashboard](img/heroku_dashboard.png)
 
-You can also see the environment variables that have been set in your application as part of the Okta provisioning process:
+You can also see the environment variables that have been set in your application as part of the Okta provisioning process. 
+Use the `OKTA_ADMIN_EMAIL` and `OKTA_ADMIN_PASSWORD` values to log in to this app:
 
 ____________________
 ![heroku env settings](img/heroku_app_env_vars.png)
