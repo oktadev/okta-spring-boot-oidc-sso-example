@@ -9,10 +9,10 @@ You can deploy directly to Heroku and provision an Okta org at the same time!
 The app is already configured to integrate with your new Okta org.
 
 When you click the purple button above, you'll give the app a unique name to run in Heroku. 
-You'll also set a name, email and password for a user that is created in your new Okta org.
-You can log into the app with this user.
 
-You can also SSO to your Okta Admin Console from the Heroku Dashboard.
+You can SSO to your Okta Admin Console from the Heroku Dashboard.
+
+And, you can launch this app as shown below:
 
 ![deploy](img/deploy_heroku_app.png)
 

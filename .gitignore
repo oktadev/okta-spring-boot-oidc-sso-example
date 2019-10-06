@@ -29,3 +29,5 @@ HELP.md
 .vscode/
 
 *.yml
+
+.DS_Store
