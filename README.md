@@ -10,11 +10,19 @@ The app is already configured to integrate with your new Okta org.
 
 When you click the purple button above, you'll give the app a unique name to run in Heroku. 
 
-You can SSO to your Okta Admin Console from the Heroku Dashboard.
+You can SSO to your Okta Admin Console from the Heroku Dashboard and, you can launch this app as shown below:
 
-And, you can launch this app as shown below:
-
+________________
 ![deploy](img/deploy_heroku_app.png)
+
+____________________
+![heroku dashboard](img/heroku_dashboard.png)
+
+You can also see the environment variables that have been set in your application as part of the Okta provisioning process:
+
+____________________
+![heroku env settings](img/heroku_app_env_vars.png)
+
 
 ## Single Sign-On with Spring Boot, OpenID Connect and Okta
 
